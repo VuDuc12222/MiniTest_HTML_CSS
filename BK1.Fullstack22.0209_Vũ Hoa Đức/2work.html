@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> My CV </title>
+        <script src="tailwind-3.1.8.js"></script>
+    </head>
+    <body onload="viewWork()">
+        <main class="bg-white container-lg mx-auto w-full h-screen ">
+                <section class="flex w-2/5 container-lg mx-auto" style="margin-left: 60%;">                   
+                    <div class="h-8">
+                        <table class="h-8 mx-auto ">
+                            <button class="border-0 text-black mt-2 pr-1 mr-1  border-r-2 text-sm  hover:text-pink-500"><a href="1home.html">Home</a></button>
+                            <button class="border-0 text-pink-500 mt-2 pr-1 mr-1  border-r-2 text-sm  hover:text-black">Works</button>
+                            <button class="border-0 text-black mt-2 pr-1 mr-1  border-r-2 text-sm  hover:text-pink-500"><a href="3blog.html">Blog</a></button>
+                            <a href="mailto:ducvh2412@gmail.com" class="border-0 text-black mt-2 text-sm   hover:text-pink-500">Contact</a>  
+                        </table>
+                    </div>
+                </section>
+                <section class="flex flex-col py-2 w-2/5 container-lg h-auto mx-auto" >
+                    <div class="mt-12 text-4xl pb-2 text-center mx-auto h-auto" style="width:80%" ><b>Works</b></div>
+                    <div class="flex flex-col items-center bg-white rounded-md" id="works"></div>
+                    
+                </section>
+                <script src="works.js"></script>
+
+        </main>
+    </body>
+</html>
